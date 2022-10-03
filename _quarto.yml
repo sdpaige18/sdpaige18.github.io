@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Political Science 390: Data Visualization"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Welcome"
+        file: index.qmd
+      - text: "Visualization Blogs" 
+        menu: 
+          - visualization_blog_1.qmd
+          - visualization_blog_2.qmd
+          - visualization_blog_3.qmd
+      - text: "Short Form Blogs"
+        menu: 
+          - short_form_blog_1.qmd
+          - short_form_blog_2.qmd
+      - final_assignment.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
